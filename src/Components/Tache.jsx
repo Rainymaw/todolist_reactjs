@@ -43,6 +43,7 @@ function Tache({ todo, position, todos, setTodos }) {
       ) : (
         <div>
           <input
+            className="checkbox"
             type="checkbox"
             value={checkbox}
             onChange={(e) => setCheckbox(e.target.value)}
